@@ -1,10 +1,12 @@
 import Card from "@/components/Card";
+import Dashboard from "@/components/Dashboard";
 import React from "react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen items-center flex">
-      <Card />
+    <div className="flex flex-col">
+      {/* <Card /> */}
+      <Dashboard />
     </div>
   );
 }
